@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include "convert_ui.h"
-#include "temperature_ui.h"
-#include "distance_ui.h"
-#include "weight_ui.h"
-#include "convert_ui.h"
+#include "ui/convert_ui.h"
+#include "ui/temperature_ui.h"
+#include "ui/distance_ui.h"
+#include "ui/weight_ui.h"
+#include "ui/convert_ui.h"
 
 int main()
 {
