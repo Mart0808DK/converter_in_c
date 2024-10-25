@@ -21,8 +21,7 @@ float get_digital_storage_value()
 
 char get_digital_storage_choice()
 {
-    float choice;
+    char choice;
     scanf(" %c", &choice);
-    printf("choice in get_digital_storage_choice: %c\n", choice);
     return choice;
 }

@@ -34,7 +34,6 @@ int digital_storage_menu()
             break;
 
         case 'A': // megabytes to bytes
-        printf("er jeg nogle sinde her?");
             printf("Enter the digital storage in megabytes: ");
             megabytes = get_digital_storage_value();
 
