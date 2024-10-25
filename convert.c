@@ -4,6 +4,7 @@
 #include "ui/distance_ui.h"
 #include "ui/weight_ui.h"
 #include "ui/convert_ui.h"
+#include "ui/digital_storage_ui.h"
 
 int main()
 {
@@ -13,7 +14,7 @@ int main()
     display_intro();
 
     // Display menu
-    while (choice != 4)
+    while (choice != 5)
     {
         display_main_menu();
         choice = get_main_choice();
@@ -34,8 +35,12 @@ int main()
             temperature_main();
             break;
         case 4:
-            printf("Quitting the program.\n");
+            printf("Digital Storage.\n");
+            digital_storage_menu();
             return 0;
+        case 5:
+            printf("Quitting program.\n");
+            break;
         default:
             printf("Invalid choice. Please try again.\n");
         }

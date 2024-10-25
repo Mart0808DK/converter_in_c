@@ -12,7 +12,8 @@ void display_main_menu()
     printf("1. Distance\n");
     printf("2. Weight\n");
     printf("3. Temperature\n");
-    printf("4. Quit\n");
+    printf("4. Digital Storage\n");
+    printf("5. Quit\n");
 }
 
 int get_main_choice()
