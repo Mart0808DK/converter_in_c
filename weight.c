@@ -24,7 +24,9 @@ int weight_main()
             kilograms = pounds_To_Kilograms(pounds);
 
             // print resultat
+            printf("------------------------------------\n");
             printf("The weight in kilograms is: %.2f\n", kilograms);
+            printf("------------------------------------\n");
             break;
         case 'k':
             printf("Enter the weight in kilograms: ");
@@ -34,7 +36,9 @@ int weight_main()
             pounds = kilograms_To_Pounds(kilograms);
 
             // print resultat
+            printf("------------------------------------\n");
             printf("The weight in pounds is: %.2f\n", pounds);
+            printf("------------------------------------\n");
             break;
 
         case 'q':

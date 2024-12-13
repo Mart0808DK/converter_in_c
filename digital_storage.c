@@ -30,7 +30,9 @@ int digital_storage_menu()
             megabytes = bytes_To_Megabytes(bytes);
 
             // print resultat
+            printf("------------------------------------\n");
             printf("The digital storage in megabytes is: %.2f\n", megabytes);
+            printf("------------------------------------\n");
             break;
 
         case 'A': // megabytes to bytes
@@ -40,7 +42,9 @@ int digital_storage_menu()
             bytes = megabytes_To_Bytes(megabytes);
 
             // print resultat
+            printf("------------------------------------\n");
             printf("The digital storage in bytes is: %.2f\n", bytes);
+            printf("------------------------------------\n");
             break;
 
         case 'b': // bytes to gigabytes
@@ -50,7 +54,9 @@ int digital_storage_menu()
             gigabytes = bytes_To_Gigabytes(bytes);
 
             // print resultat
+            printf("------------------------------------\n");
             printf("The digital storage in gigabytes is: %.2f\n", gigabytes);
+            printf("------------------------------------\n");
             break;
 
         case 'B': // gigabytes to bytes
@@ -60,7 +66,9 @@ int digital_storage_menu()
             bytes = gigabytes_To_Bytes(gigabytes);
 
             // print resultat
+            printf("------------------------------------\n");
             printf("The digital storage in bytes is: %.2f\n", bytes);
+            printf("------------------------------------\n");
             break;
 
         case 'c': // bytes to bits
@@ -71,7 +79,9 @@ int digital_storage_menu()
             bits = bytes_To_Bits(bytes);
 
             // print resultat
+            printf("------------------------------------\n");
             printf("The digital storage in bits is: %.2f\n", bits);
+            printf("------------------------------------\n");
             break;
 
         case 'C': // bits to bytes
@@ -82,7 +92,9 @@ int digital_storage_menu()
             bytes = bits_To_Bytes(bits);
 
             // print resultat
+            printf("------------------------------------\n");
             printf("The digital storage in bytes is: %.2f\n", bytes);
+            printf("------------------------------------\n");
             break;
 
         case 'q':

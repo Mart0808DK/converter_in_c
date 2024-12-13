@@ -27,7 +27,9 @@ int temperature_main ()
             celsius = fahrenheit_To_Celsius(fahr); 
 
             // print resultat
+            printf("------------------------------------\n");
             printf("The temperature in Celsius is: %.2f\n", celsius);
+            printf("------------------------------------\n");
             break;
         case 'c': 
             printf("Enter the temperature in Celsius: ");
@@ -37,7 +39,9 @@ int temperature_main ()
             fahr = celsius_To_Fahrenheit(celsius); 
 
             // print resultat
+            printf("------------------------------------\n");
             printf("The temperature in Fahrenheit is: %.2f\n", fahr);
+            printf("------------------------------------\n");
             break;
         case 'q':
             printf("Quitting to menu\n");

@@ -27,7 +27,9 @@ int distance_main()
             celsius = kilometers_To_Miles(fahr); 
 
             // print resultat
+            printf("------------------------------------\n");
             printf("The distance in miles is: %.2f\n", celsius);
+            printf("------------------------------------\n");
             break;
 
         case 'k':
@@ -38,7 +40,9 @@ int distance_main()
             fahr = miles_To_Kilometers(celsius); 
 
             // print resultat
+            printf("------------------------------------\n");
             printf("The distance in kilometers is: %.2f\n", fahr);
+            printf("------------------------------------\n");
             break;
 
         case 'q':
