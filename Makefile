@@ -6,7 +6,7 @@ CFLAGS=-Wall
 EXE=converter
 
 # Kilde- og objektfiler
-SRCS=convert.c ui/weight_ui.c ui/temperature_ui.c ui/distance_ui.c ui/convert_ui.c ui/digital_storage_ui.c distance.c weight.c temperature.c digital_storage.c
+SRCS=convert.c ui/weight_ui.c ui/temperature_ui.c ui/distance_ui.c ui/convert_ui.c ui/digital_storage_ui.c ui/numbers_ui.c distance.c weight.c temperature.c digital_storage.c numbers.c
 
 # Standard mål
 all: $(EXE)

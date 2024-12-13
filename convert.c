@@ -5,6 +5,7 @@
 #include "ui/weight_ui.h"
 #include "ui/convert_ui.h"
 #include "ui/digital_storage_ui.h"
+#include "ui/numbers_ui.h"
 
 int main()
 {
@@ -39,6 +40,10 @@ int main()
             digital_storage_menu();
             break;
         case 5:
+            printf("Numbers\n");
+            numbers_menu();
+            break;
+        case 6:
             printf("Quitting program.\n");
             break;
         default:

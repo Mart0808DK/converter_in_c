@@ -13,7 +13,8 @@ void display_main_menu()
     printf("2. Weight\n");
     printf("3. Temperature\n");
     printf("4. Digital Storage\n");
-    printf("5. Quit\n");
+    printf("5. Numbers\n");
+    printf("6. Quit\n");
 }
 
 int get_main_choice()
