@@ -15,7 +15,7 @@ int main()
     display_intro();
 
     // Display menu
-    while (choice != 5)
+    while (choice != 6)
     {
         display_main_menu();
         choice = get_main_choice();

@@ -99,7 +99,7 @@ int numbers_menu()
             break;
         case 'q':
             printf("Quitting to menu\n");
-            return 0;
+            return 0; // tilbage til menu
             break;
 
         default:
