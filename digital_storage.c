@@ -7,6 +7,7 @@ float bytes_To_Gigabytes(float bytes);
 float gigabytes_To_Bytes(float gigabytes);
 float bytes_To_Bits(float bytes);
 float bits_To_Bytes(float bits);
+float megabytes_To_Gigabytes(float megabytes);
 
 int digital_storage_menu()
 {
@@ -97,6 +98,18 @@ int digital_storage_menu()
             printf("------------------------------------\n");
             break;
 
+        case 'D': // megabytes to gigabytes
+            printf("Enter the digital storage in megabytes: ");
+            megabytes = get_digital_storage_value();
+
+            gigabytes = megabytes_To_Gigabytes(megabytes);
+
+            // print resultat
+            printf("------------------------------------\n");
+            printf("The digital storage in gigabytes is: %.2f\n", gigabytes);
+            printf("------------------------------------\n");
+            break;
+
         case 'q':
             printf("Quitting to menu\n");
             return 0;
@@ -145,4 +158,10 @@ float bits_To_Bytes(float bits)
 {
     float bytes = bits / 8;
     return bytes;
+}
+
+float megabytes_To_Gigabytes(float megabytes)
+{
+    float gigabytes = megabytes / 1024;
+    return gigabytes;
 }
