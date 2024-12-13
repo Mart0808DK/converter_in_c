@@ -8,11 +8,12 @@ float gigabytes_To_Bytes(float gigabytes);
 float bytes_To_Bits(float bytes);
 float bits_To_Bytes(float bits);
 float megabytes_To_Gigabytes(float megabytes);
+float gigabytes_To_Terabytes(float gigabytes);
 
 int digital_storage_menu()
 {
     char choice = 'F';
-    float bytes, megabytes, gigabytes, bits;
+    float bytes, megabytes, gigabytes, bits, terabytes;
 
     while (choice != 'q')
     {
@@ -110,6 +111,18 @@ int digital_storage_menu()
             printf("------------------------------------\n");
             break;
 
+        case 'd': // gigabytes to terabytes
+            printf("Enter the digital storage in gigabytes: ");
+            gigabytes = get_digital_storage_value();
+
+            terabytes = gigabytes_To_Terabytes(gigabytes);
+
+            // print resultat
+            printf("------------------------------------\n");
+            printf("The digital storage in terabytes is: %.2f\n", terabytes);
+            printf("------------------------------------\n");
+            break;
+
         case 'q':
             printf("Quitting to menu\n");
             return 0;
@@ -164,4 +177,10 @@ float megabytes_To_Gigabytes(float megabytes)
 {
     float gigabytes = megabytes / 1024;
     return gigabytes;
+}
+
+float gigabytes_To_Terabytes(float gigabytes)
+{
+    float terabytes = gigabytes / 1024;
+    return terabytes;
 }

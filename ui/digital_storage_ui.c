@@ -9,6 +9,8 @@ void display_digital_storage_menu()
     printf("B. Gigabytes to Bytes\n");
     printf("c. Bytes to Bits\n");
     printf("C. Bits to Bytes\n");
+    printf("D. Megabytes to Gigabytes\n");
+    printf("d. Gigabytes to Terabytes\n");
     printf("q. Quit to menu\n");
 }
 
