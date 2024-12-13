@@ -43,6 +43,7 @@ int distance_main()
 
         case 'q':
             printf("Quitting to menu\n");
+            return 0;
             break;   
         
         default:

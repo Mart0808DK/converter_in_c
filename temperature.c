@@ -41,6 +41,7 @@ int temperature_main ()
             break;
         case 'q':
             printf("Quitting to menu\n");
+            return 0;
             break;   
         
         default:

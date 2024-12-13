@@ -87,6 +87,7 @@ int digital_storage_menu()
 
         case 'q':
             printf("Quitting to menu\n");
+            return 0;
             break;
 
         default:

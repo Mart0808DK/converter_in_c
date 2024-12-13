@@ -37,7 +37,7 @@ int main()
         case 4:
             printf("Digital Storage.\n");
             digital_storage_menu();
-            return 0;
+            break;
         case 5:
             printf("Quitting program.\n");
             break;
